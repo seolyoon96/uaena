@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+
+/*dott*/
+.dott{position: fixed;top: 50%;right: 45px;transform: translateY(-50%);z-index: 5;}
+.dott li{width: 10px;height: 10px;margin-bottom: 15px;}
+.dott li:last-child{margin-bottom: 0;}
+.dott li a{display: block;width: 10px;height: 10px;background: #928fbf;border-radius: 50%;}
+
+.dott li:nth-child(1):hover a{background:#fff;}
+.dott li:nth-child(2):hover a{background:#fff;}
+.dott li:nth-child(3):hover a{background:#fff;}
+.dott li:nth-child(4):hover a{background:#fff;}
+.dott li:nth-child(5):hover a{background:#fff;}
+
+.dott li:nth-child(1).on a{background:#fff;}
+.dott li:nth-child(2).on a{background:#fff;}
+.dott li:nth-child(3).on a{background:#fff;}
+.dott li:nth-child(4).on a{background:#fff;}
+.dott li:nth-child(5).on a{background:#fff;}
+
+.dott_line{position: fixed;top: 0;right: 50px;width: 1px;height: 100%;background: rgba(255,255,255,0.5);z-index: 3;}
+
+
+
+/*section*/
+section{width: 100%;height: 1000px;position: relative;background-size: cover;background-position: center;background-attachment: fixed;overflow: hidden;}
+.page1{background-image: url(../images/main-bg-2.jpg);}
+.page2{}
+.page3{}
+.page4{}
+.page5{}
+
+/*
+section .page_box{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 1000px;height: 450px;background: powderblue;}
+*/
+
+.page1 #page1{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 1350px;height: 250px;line-height: 1.5;text-align: left;font-family: "gabriola";src: url(../../font/gabriola\ Font\ Download.ttf) format("truetype");font-style: italic;}
+.page1 #page1 h1{font-size: 200px;}
+.page1 #page1 h1 a{color: #fff;}
+
+
+
+/*text box*/
+article{position: absolute;top: 100px;left: 250px;}
+article p{float: left;font-family: "gabriola";src: url(../../font/gabriola\ Font\ Download.ttf) format("truetype");font-style: italic;font-size: 50px;letter-spacing: 2px;}
+article span{font-family: "gabriola";src: url(../../font/gabriola\ Font\ Download.ttf) format("truetype");font-style: italic;font-size: 30px;line-height: 3;margin-left: 10px;}
+
+
+/*box2*/
+.page2 p{color: #928fbf;}
+.page2 span{color: #e4e724;}
+
+
+
+/*box3*/
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('img/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+
+
+.page3 .nav{position: relative;position: absolute;text-align: center;bottom: 0;left: 500px;z-index: 15;margin: 50px auto;width: 900px;height: 25px;}
+.page3 .gnb li{float: left;margin-right: 75px;line-height: 1.2;}
+.page3 .nav .gnb li:last-child{margin-right: 0}
+.page3 .nav .gnb li a{color: #fff;font-size: 25px;font-family: "gabriola";src: url(../../font/gabriola\ Font\ Download.ttf) format("truetype");font-style: italic;}
+.page3 .nav .gnb li:hover a{color: #e4e724}
+
+
+
+/*box4*/
+.page4 p{color: #928fbf;}
+.page4 span{color: #e4e724;}
+
+.page4 img{position: absolute;top: 200px;}
+
+.p01{position: absolute;left: 50px;}
+.p02{position: absolute;left: 653px;}
+.p03{position: absolute;left: 895px;}
+.p04{position: absolute;left: 1417px;}
+.p05{position: absolute;right: 1399px;margin-top: 360px;}
+.p06{position: absolute;right: 825px;margin-top: 360px;}
+.p07{position: absolute;right: 560px;margin-top: 360px;}
+.p08{position: absolute;right: 50px;margin-top: 360px;}
+
+
+
+/*box5*/
+.page5{position: relative;}
+.page5 p{color: #928fbf;}
+.page5 span{color: #e4e724;}
+
+.page5 img{position: absolute;top: 200px;left: 50px;}
+
+.page5 .p09{position: absolute;top: 548px;left: 110px;}
+.page5 .p10{position: absolute;top: 548px;left: 460px;}
+.page5 .p11{position: absolute;top: 548px;left: 810px;}
+.page5 .p12{position: absolute;top: 548px;left: 1160px;}
+.page5 .p13{position: absolute;top: 548px;left: 1510px;}
+
+.page5 .txt1{position: absolute;bottom: 90px;left: 180px;text-align: center;color: #000;font-size: 20px;font-family: "gabriola";src: url(../../font/gabriola\ Font\ Download.ttf) format("truetype");line-height: 1;}
+.page5 .txt2{position: absolute;bottom: 90px;left: 510px;text-align: center;color: #000;font-size: 20px;font-family: "gabriola";src: url(../../font/gabriola\ Font\ Download.ttf) format("truetype");line-height: 1;}
+.page5 .txt3{position: absolute;bottom: 90px;left: 870px;text-align: center;color: #000;font-size: 20px;font-family: "gabriola";src: url(../../font/gabriola\ Font\ Download.ttf) format("truetype");line-height: 1;}
+.page5 .txt4{position: absolute;bottom: 90px;left: 1210px;text-align: center;color: #000;font-size: 20px;font-family: "gabriola";src: url(../../font/gabriola\ Font\ Download.ttf) format("truetype");line-height: 1;}
+.page5 .txt5{position: absolute;bottom: 90px;left: 1545px;text-align: center;color: #000;font-size: 20px;font-family: "gabriola";src: url(../../font/gabriola\ Font\ Download.ttf) format("truetype");line-height: 1;}
